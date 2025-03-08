@@ -1,0 +1,211 @@
+<html>
+    <head>
+    <title>ecommers</title>
+    <style>
+        header{
+            color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding:5px; 
+            text-align:left;
+            background-color:#333;     
+        }
+        
+        .navbar {
+            font-size:15px;
+            padding:0.5rem;
+            margin-left:800px;
+            color:rgb(194, 230, 230);
+        }
+        
+        
+        .img-container img{
+            float:right;
+            width:250px;
+            margin-right:200px;
+            
+            width:600px;
+            margin-top:100px;
+            border-style:dotted;
+        }
+        .text-box{
+            position:absolute;
+            top:130px;
+            left:50px;
+            font-size:20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+         .image-container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+         }
+            .image-box{
+            text-align:left ;
+            margin-top:30px
+        }
+        
+        .image{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            paddding:800px;
+            margin-top:230px;
+            margin-left:7px;
+            margin-right:5px;
+            grid-column-gap:20px;
+            grid-row-gap:50px;
+            
+        }
+        .image img{
+            
+            object-fit:cover;
+            cursor:pointer;
+            transition:0.2% ease;
+        }
+        .image img:hover{
+            transform:scale(1.07);
+        }
+        
+        .desc{
+            padding:15px;
+            text-align:center;
+            margin-top:180px;
+            margin-left:-200px;
+        }
+        .image button{
+            padding:5px 30px;
+            border-style: outset;
+            color:rgb(18, 25, 31);
+            background-color: aqua;
+            border-radius:4px;
+            cursor: pointer;
+            
+            display:block;
+            margin:0 auto;
+            transition:0.2s all;
+        }
+        .image button:hover{
+            transform:scale(1.09);
+        }
+        @media screen and(max-width:1000px)
+        {
+            .image{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media screen and(max-width:769px){
+            .image{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+
+    </style>
+    </head>
+    <body>
+        <header>
+        <h1>Hot Gadgets</h1>
+        <nav class="navbar">
+            <a href="#home"style="color:white">home</a>
+            <a href="#about"style="color:white">about</a>
+            <a href="#product"style="color:white">product</a>
+            <a href="#review"style="color:white">review</a>
+            <a href="#contact"style="color:white">contact</a>
+        </nav>
+
+        
+        
+        </header>
+        
+        <div class="img-container">
+            <img src="lpt.jpeg" style="position:relative;top:20px;left:100px;width:350px;height:200px;">
+            
+        </div>
+        <div class="text-box">
+        <h2>mack book</h2>
+        
+        <p style=font-family:sans-serif>enjoy your shopping with mack book </p>
+         <img src="offer2.jpeg">
+         <p class="image-box">laptops</p>
+         
+         </div>
+         
+         <section class="image">
+            <div class="image">
+                
+                <img src="img1.jpeg"width="200px">
+                <div class="desc">
+                
+                <h4>product1</h4>
+                <h5>price:500</h5>
+                <button>addTocart</button></div>
+            </div>
+            <div class="image">
+                <img src="img3.jpeg">
+                <div class="desc">
+                <h4>product2</h4>
+                <h5>price:$6700</h5>
+                <button>addTocart</button>
+                </div>
+            </div>
+            <div class="image">
+                <a href="hello.html">
+                <img src="img8.jpeg"width="230px">
+                </a>
+                <div class="desc">
+                <h4>product3</h4>
+                <h5>price:$7700</h5>
+                
+                  <button>addTocart</button> </div>
+                
+                
+
+            </div>
+            <div class="image">
+                <img src="img5.jpeg">
+                <div class="desc">
+                <h4>product4</h4>
+                <h5>price:$3300</h5>
+                <button>addTocart</button>
+                </div>
+
+            </div>
+            <div class="image">
+                <img src="img6.jpeg"width="200px">
+                <div class="desc">
+                <h4>product5</h4>
+                <h5>price:$8600</h5>
+                <button>
+                    addTocart
+                </button>
+                </div>
+
+            </div>
+            <div class="image">
+                <img src="img7.jpeg">
+                <div class="desc">
+                <h4>product6</h4>
+                <h5>price:$5500</h5>
+                <button>addTocart</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="img4.jpeg"width="180px"height="150px">
+                <div class="desc">
+                <h4>product6</h4>
+                <h5>price:$5500</h5>
+                <button>addTocart</button>
+                </div>
+            </div>
+            
+            
+            
+         </section>
+         <footer>
+            <p style="background-color: rgb(109, 164, 187);text-align:center;height:50px">shiva6264@gmail.com</p>
+         </footer>
+         
+
+        
+    </body>
+</html>
