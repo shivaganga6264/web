@@ -1,0 +1,378 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>resposive portfolio website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+        .oval-image{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin-top:60px;
+    margin-left:100px;
+        }
+        .menu{
+            padding:10px 10%;
+            margin-left:700px;
+            margin-top:-350px;
+
+        }
+        .nav{
+            display:wrap;
+            align-items:center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+        .container{
+            margin-left:500px;
+            margin-top:90px;
+            color: aliceblue;
+            
+        }
+        nav ul {
+            list-style-type:none;
+            padding:0;
+            margin:0;
+            display:flex;
+            gap:20px;
+
+        }
+        nav ul li{
+            display:inline;
+
+        }
+        nav ul li a{
+            text-decoration:none;
+            color:aqua;
+            font-size:18px;
+
+        } 
+        nav ul li a:hover{
+            color:red;
+
+        }
+        #about{
+            padding:80px 0;
+            color:#ababab;
+            margin-left:-360px;
+        }
+        .skills{
+         margin-left:150px;
+         margin-top:-20px;
+         color:#ababab;
+        }
+    
+        
+        .line {
+            width:4px; /* Line thickness */
+            height:500px; /* Line height */
+            background-color:darkcyan; /* Line color */
+            position:absolute;
+            top: 150%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius:10px;
+            margin-top:150px;
+        }
+        
+        .dot {
+    width: 12px; /* Dot size */
+    height: 12px;
+    background-color:darkcyan; /* Dot color */
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/* Positioning dots */
+.dot1 { top: 0px; }
+.dot2 { top: 230px; }
+
+  
+
+ .edu1{
+    
+            width: 300px;
+            padding: 20px;
+            background-color:black;
+            border-color:darkcyan;
+            border-radius: 40px; /* Curved edges */
+            border-style: solid;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left:540px;
+            color:dimgrey;
+        
+ }
+  .year1{
+    margin-top:44px;
+    margin-left:500px;
+    font-weight:bolder;
+    font-size:20px;
+  }
+  .year2{
+    margin-top:7px;
+    margin-left:390px;
+    font-weight:bolder;
+    font-size:20px;
+  }
+  .edu2{
+    
+    width: 300px;
+    padding: 20px;
+    background-color:black;
+    border-color:darkcyan;
+    border-radius: 40px; /* Curved edges */
+    border-style: solid;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:40px;
+    color:dimgrey;
+    margin-top:30px;
+
+}
+.section{
+    margin-top:80px;
+    color:#ababab;
+    margin-left:200px;
+    
+}
+.circle {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin-top: 70px;
+            margin-left:40px;
+        }
+        svg {
+            transform: rotate(-90deg);
+        }
+        circle {
+            fill: none;
+            stroke-width: 3; /* Thin stroke */
+            stroke-linecap: round;
+        }
+        .bg {
+            stroke: #ddd; /* Background circle */
+        }
+        .progress {
+            stroke: teal; /* Progress color */
+            stroke-dasharray: 94.25;
+            stroke-dashoffset:94.25; /* Adjust progress here */
+            transition: stroke-dashoffset 1s ease-in-out;
+        }
+        .label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .sectiona{
+            margin-top:70px;
+            margin-left:200px;
+            color:#ababab;
+        }
+        .contact{
+            margin-top:350px;
+            margin-left:200px;
+            color:#ababab;
+            font-size:20px;
+        }
+        .box{
+            margin-top:-160px;
+        }
+        .icon{
+          margin-top: -238px; 
+          font-size:30px; 
+          background-color:#ababab;
+          margin-left:763px;
+          margin-right: 455px;
+          text-decoration: none;
+          
+        }
+        .location{
+            margin-top: -68px; 
+          font-size:20px; 
+          background-color:#ababab;
+          margin-left:766px;
+          margin-right: 457px;
+          text-decoration: none;
+          
+
+        }
+        .email{
+            margin-top:65px; 
+          font-size:18px; 
+          background-color:#ababab;
+          margin-left:766px;
+          margin-right: 453px;
+          text-decoration: none;
+          
+        }
+
+         </style>
+
+       <body style="background-color:black">
+    
+     <img src="se.jpg"class="oval-image">
+     <div class="menu">
+    
+        <nav>
+            <ul>
+            <li><a href="#">Home</a></li>
+           <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">project</a></li>
+            <li><a href="#">contact</a></li>
+            </ul>
+        </nav> 
+        </div>
+        
+     <div class="container">
+        <h2>Hello,its me</h2>
+        <h1 style="font-size:50px;font-style:oblique">Shiva Ganga</h1>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="about-col-2">
+                        <h1 class="sub-title" >About me</h1>
+       <pre> <p style="font-style: italic">Hi,i'am a Btech computer science student at kakathiya university,passionate
+about have web development and machine learning .i enjoy creating interactive 
+web experiences using html,css and javasctript,and i also have experience with 
+python and java,and c programming.</p></pre>
+          <img src="lg.jpg"width=200px style="position:absolute; top:500px;left:850px;border-radius:20px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <h1>Education</h1>
+        <div class="year1">2013</div>
+            <div class="edu1">
+                <h2 style="margin-left:-180px;color:white">Diploma</h2> 
+            <p>Completed Diploma in Computer Science with a strong foundation in Java, C, C++, and Data Structures,
+                 focusing on algorithm design 
+            </p>
+            </div>
+            <div class="year2">2026</div>
+            <div class="edu2">
+                <h2 class="schol"style="margin-left:-170px;color:white">Btech</h2> 
+                <p>BTech 3rd year Passionate about coding, building with HTML, CSS, JavaScript, and
+                     exploring problem-solving through Python, SQL, and DAA.</p>
+            </div>
+        </div>
+        
+            <div class="line">
+                <div class="dot dot1"></div>
+                <div class="dot dot2"></div>
+                <div class="dot dot3"></div>
+            </div>
+        <div class="section">
+            <h1>Skills</h1>
+            <div class="circle">
+                <svg width="100" height="100" viewBox="0 0 36 36">
+                    <circle class="bg" cx="18" cy="18" r="15" stroke-width="3"></circle>
+                    <circle class="progress" cx="18" cy="18" r="15" stroke-width="3" stroke-dasharray="94.25" stroke-dashoffset="25"></circle>
+                </svg>
+                <div class="label">python</div>
+            </div>
+            <div class="circle" style="margin-top:-100px;margin-left:250px;">
+                <svg width="100" height="100" viewBox="0 0 36 36">
+                    <circle class="bg" cx="18" cy="18" r="15" stroke-width="3"></circle>
+                    <circle class="progress" cx="18" cy="18" r="15" stroke-width="3" stroke-dasharray="94.25" stroke-dashoffset="0"></circle>
+                </svg>
+                <div class="label">DS</div>
+            </div>
+            <div class="circle" style="margin-top:-100px;margin-left:450px;">
+                <svg width="100" height="100" viewBox="0 0 36 36">
+                    <circle class="bg" cx="18" cy="18" r="15" stroke-width="3"></circle>
+                    <circle class="progress" cx="18" cy="18" r="15" stroke-width="3" stroke-dasharray="94.25" stroke-dashoffset="0"></circle>
+                </svg>
+                <div class="label">JAVA</div>
+            </div>
+            <div class="circle"style="margin-top:-100px;margin-left:650px;">
+                <svg width="100" height="100" viewBox="0 0 36 36">
+                    <circle class="bg" cx="18" cy="18" r="15" stroke-width="3"></circle>
+                    <circle class="progress" cx="18" cy="18" r="15" stroke-width="3" stroke-dasharray="94.25" stroke-dashoffset="0"></circle>
+                </svg>
+                <div class="label">HTML</div>
+            </div>
+            <div class="circle">
+                <svg width="100" height="100" viewBox="0 0 36 36">
+                    <circle class="bg" cx="18" cy="18" r="15" stroke-width="3"></circle>
+                    <circle class="progress" cx="18" cy="18" r="15" stroke-width="3" stroke-dasharray="94.25" stroke-dashoffset="0"></circle>
+                </svg>
+                <div class="label">CSS</div>
+            </div>
+            <div class="circle"style="margin-top:-100px;margin-left:250px;">
+                <svg width="100" height="100" viewBox="0 0 36 36">
+                    <circle class="bg" cx="18" cy="18" r="15" stroke-width="3"></circle>
+                    <circle class="progress" cx="18" cy="18" r="15" stroke-width="3" stroke-dasharray="94.25" stroke-dashoffset="25"></circle>
+                </svg>
+                <div class="label">JS</div>
+            </div>
+            </div>
+            <div class="sectiona">
+            <h1>project</h1>
+            <img src="project1.jpg"width="500px"style="position:absolute; top:1850px;left:400px;">
+            
+            </div>
+            <div class="contact">
+                <h1 style="margin-left:600px">Contact me</h1>
+                <p style="color:#ababab;margin-left:600px;">Shadnagar</p>
+                <p style="color: #ababab;margin-left:600px;">9014974693</p>
+                <p style="color: #ababab;margin-left:600px;">shivagangashivaganga853@gmail.com</p>
+            <div class="box">
+            Name:</br>
+            <input type="text"name="name" style="border-color: darkcyan;border-style: solid;border-radius:6px;background-color:black;width:350px;"/></br></br> 
+            Email:</br>
+            <input type="email"name="email" style="border-color:darkcyan;border-style:solid;background-color:black;border-radius:6px;width:350px"></br></br>
+            Message:</br>
+            <textarea rows="7"cols="45" style="border-color:darkcyan;border-style: solid;background-color:black;">
+            </textarea><br/></br>
+            
+            <input type="button"value="Send" placeholder="Send" style="border-color: darkcyan;width:350px;border-style: solid;background-color:darkcyan;">
+            </div></div>
+            <div class="icon">
+                <i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <script>
+                function setProgress(circleIndex, percentage) {
+                    let offset = 94.25 - (percentage / 100) * 94.25;
+                    document.querySelectorAll(".progress")[circleIndex].style.strokeDashoffset = offset;
+                }
+            
+                // Set individual progress percentages
+                setProgress(0, 70); // HTML - 80%
+                setProgress(1, 80); // CSS - 60%
+                setProgress(2, 80); // JS - 40%
+                setProgress(3, 100); 
+                setProgress(4, 100); 
+                setProgress(5, 70); 
+            </script>      
+        
+  
+  </body>    
+    </html>
